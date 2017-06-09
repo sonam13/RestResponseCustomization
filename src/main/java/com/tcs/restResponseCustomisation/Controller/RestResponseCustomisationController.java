@@ -20,7 +20,7 @@ public class RestResponseCustomisationController {
 	@Autowired 
 	RestResponseCustomisationService restCodeGenerationService;
 	
-	@RequestMapping(value = "/restResponseCustomization", method = RequestMethod.POST)
+	@RequestMapping(value = "", method = RequestMethod.POST)
 	public @ResponseBody String getClients(@RequestBody Request request) throws JSONException, IOException {
 		String msg=null;
 		try
